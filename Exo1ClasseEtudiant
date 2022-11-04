@@ -1,0 +1,47 @@
+
+public class Etudiant {
+    private String id;
+    private String nom;
+    private double moyenne;
+    
+    // constructeur
+    public Etudiant(String id, String nom, double moyenne) {
+        this.id = id;
+        this.nom = nom;
+        this.moyenne = moyenne;
+    }
+    
+    //setters & getters
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public double getMoyenne() {
+        return moyenne;
+    }
+
+    public void setMoyenne(double moyenne) {
+        this.moyenne = moyenne;
+    }
+    
+    // méthode qui compare deux étudiants sur la base de leur id - pas terminée d'etre résolue
+   /* public void equals() {
+        String etudiant1="str";
+        String etudiant2="str";
+        if(etudiant1.equals(etudiant2))
+        System.out.println("Les deux String sont égaux");   
+}*/
+    
+}
